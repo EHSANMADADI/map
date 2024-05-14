@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@photo-sphere-viewer/core": "^5.7.3",
     "axios": "^1.6.8",
     "leaflet": "^1.9.4",
     "leaflet-area-select": "^1.0.9",
@@ -19,7 +20,8 @@
     "react": "^18",
     "react-dom": "^18",
     "react-icons": "^5.2.1",
-    "react-leaflet": "^4.2.1"
+    "react-leaflet": "^4.2.1",
+    "react-photo-sphere-viewer": "^5.0.2-psv5.7.1"
   },
   "devDependencies": {
     "autoprefixer": "^10",

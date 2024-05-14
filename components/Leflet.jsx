@@ -12,7 +12,7 @@ const Leflet = () => {
 
   return (
     <MapContainer
-      center={[40.8054, -74.0241]}
+      center={[20, 30]}
       zoom={14}
       style={{ height: "100%", width: "100%" }}>
         <AreaSelect/>

@@ -13,10 +13,10 @@ export default function Modal(props) {
      var [index, setIndex] = useState(0);
      console.log(index);
      return (
-          <div className='fixed inset-0 w-full flex justify-center items-center transition-colors bg-opacity-25 z-50   border-black' id='wrapper' onClick={Handelclose}>
-               <div className='w-36 sm:w-[300px]  flex flex-col'>
+          <div className='fixed inset-0 w-full flex justify-center items-center transition-colors bg-opacity-25 z-50  border-black' id='wrapper' onClick={Handelclose}>
+               <div className='w-[900px]  flex flex-col'>
                     <button className='text-black  place-self-end rounded p-2 mb-1' onClick={() => props.onClose()}><IoIosCloseCircle className='text-3xl bg-white' /></button>
-                    <div className='bg-slate-200 rounded '>
+                    <div className='bg-slate-200 rounded w-full '>
                          <div className='w-full'>
                               <img className='w-full h-auto' src={props.imageData[index]} />
                               <div className='flex justify-center'>
