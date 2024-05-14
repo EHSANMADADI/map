@@ -34,6 +34,7 @@ export default function ModalPana(props) {
         // setPlay(!play)
     }
 
+    // defewdf
     return (
         <div className='fixed inset-0 flex justify-center items-center transition-colors bg-opacity-25 z-50  border-black' id='wrapper' onClick={Handelclose}>
             <div className='w-[900px] flex flex-col'>
